@@ -168,6 +168,12 @@ For data construction pipeline (image pairs, instructions, CoT generation & form
 For evaluation, please follow:
 - [Evaluation](./docs/README_Evaluation.md)
 
+Quick sanity check (lightweight):
+
+```bash
+pytest -q lrc_scripts/clients/agent_to_lightroom/tests/test_lrc_api_server.py
+```
+
 ---
 
 ## 🎪 Checklist

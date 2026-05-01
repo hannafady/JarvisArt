@@ -174,6 +174,10 @@ Quick sanity check (lightweight):
 pytest -q lrc_scripts/clients/agent_to_lightroom/tests/test_lrc_api_server.py
 ```
 
+Notes:
+- JPEG input can be processed to JPEG output via the Agent-to-Lightroom bridge.
+- Lightroom processing is executed locally/offline on your machine (no cloud Lightroom dependency).
+
 ---
 
 ## 🎪 Checklist
